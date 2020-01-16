@@ -2,7 +2,7 @@
 celinette site
 
 ## 사이트 정보
-1. 본 사이트는 HTML, CSS, fontawesome 이용하여 제작한 사이트입니다.
+1. 본 사이트는 HTML, CSS, fontawesome을 ㅇㅇㅇ 이용하여 제작한 사이트입니다.
 2. celinette 웹사이트를 대상으로 하였으며 반응형으로 리디자인하였습니다.
 
 ## 릴리즈 정보
