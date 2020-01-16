@@ -1,0 +1,58 @@
+#scrbox {
+    height: 540px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.grpbox {
+    display: inline-block;
+    border-right: 3px dotted #555;
+    padding-right: 36px;
+    margin-right: 30px;
+}
+
+.grpbox:last-of-type {
+    border-right: none;
+}
+
+.grpbox img {
+    height: 490px;
+    margin-right: 20px;
+}
+
+.grpbox img:last-of-type {
+    margin-right: 0;
+}
+
+.grpbox p {
+    font-size: 0.7em;
+    margin-top: 4px;
+}
+
+#scr {
+    color: gray;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+.grpbox a {
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+
+.grpbox a:hover {
+    color: #f03;
+}
+
+@media all and (max-width:800px) {
+    #scrbox {
+        height: 300px;
+    }
+    
+    .grpbox img {
+        height : 250px;
+    }
+}
